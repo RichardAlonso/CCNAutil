@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore Streamlit secrets (NEVER commit this)
+.streamlit/secrets.toml
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
+
+# Optional: Ignore the database if you plan to regenerate it
+# If you want to share the pre-made DB, remove the line below
+study_app.db
